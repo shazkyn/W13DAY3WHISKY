@@ -1,8 +1,8 @@
 package com.example.whiskytracker.repositories.distillery;
 
 import com.codeclan.example.WhiskyTracker.models.Distillery;
-import com.example.whiskytracker.models.Distillery;
-import com.example.whiskytracker.models.Region;
+import com.codeclan.example.WhiskyTracker.models.DistilleryRepositoryCustom;
+import com.codeclan.example.Whiskytracker.models.Region;
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

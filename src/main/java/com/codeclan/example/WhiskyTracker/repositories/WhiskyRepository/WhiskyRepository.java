@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface WhiskyRepository extends JpaRepository<Whisky, Long>, com.example.whiskytracker.repositories.whisky.WhiskyRepositoryCustom {
+public interface WhiskyRepository extends JpaRepository<Whisky, Long>, WhiskyRepositoryCustom {
     public List<Whisky> findWhiskiesByYear(int year);
 }

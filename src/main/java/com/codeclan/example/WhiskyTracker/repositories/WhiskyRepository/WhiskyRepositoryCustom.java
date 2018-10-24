@@ -7,6 +7,7 @@ import javax.swing.plaf.synth.Region;
 import java.util.List;
 
 public interface WhiskyRepositoryCustom {
+
     public List<Whisky> findWhiskiesByYear(int year);
 
     List<Whisky> findWhiskiesByYear(int year);
